@@ -1,4 +1,12 @@
 # Custom Nodes That Power This Magic
+
+# Installation
+```
+git clone https://github.com/Tomasvii/WanVideoVaceSeamlessJoin.git .
+```
+
+Clone the two .py files directly in custom_nodes, no subfolder needed.
+
 # 1. WanVideoVaceSeamlessJoin Node
 
 The secret sauce for creating long-form videos without transitions breaks.
