@@ -1,14 +1,12 @@
-# WanVideoVaceSeamlessJoin/__init__.py
-
-from .combine_video_clips_extended import CombineVideoClipsExtended
-from .seamless_join_video_clips import SeamlessJoinVideoClips
+from .combine_video_clips_extended import CombineVideoClips
+from .seamless_join_video_clips import WanVideoVaceSeamlessJoin
 
 NODE_CLASS_MAPPINGS = {
-    "CombineVideoClipsExtended": CombineVideoClipsExtended,
-    "SeamlessJoinVideoClips": SeamlessJoinVideoClips,
+    "CombineVideoClips": CombineVideoClips,
+    "WanVideoVaceSeamlessJoin": WanVideoVaceSeamlessJoin,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "CombineVideoClipsExtended": "Combine Video Clips (Extended)",
-    "SeamlessJoinVideoClips": "Seamless Join Video Clips",
+    "CombineVideoClips": "Combine Video Clips (Extended)",
+    "WanVideoVaceSeamlessJoin": "WanVideo Vace Seamless Join",
 }
